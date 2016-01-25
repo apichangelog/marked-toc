@@ -1,6 +1,8 @@
 ---
 name: Test
 ---
+
+
 # Test
 
 > This is a test!
@@ -9,11 +11,12 @@ name: Test
 
 <!-- toc -->
 
-* [Quickstart](#quickstart)
-* [Options](#options)
-* [Usage examples](#usage-examples)
-* [Contributing](#contributing)
-* [Author](#author)
+* [Test](#test)
+  * [Quickstart](#quickstart)
+  * [Options](#options)
+  * [Usage examples](#usage-examples)
+  * [Contributing](#contributing)
+  * [Author](#author)
 
 <!-- tocstop -->
 
