@@ -1,7 +1,7 @@
 {
   "name": "marked-toc",
   "description": "Generate a markdown TOC (table of contents).",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/jonschlinkert/marked-toc",
   "author": {
     "name": "Jon Schlinkert",
