@@ -13,6 +13,7 @@ var matter = require('gray-matter');
 var slugify = require('uslug');
 var write = require('write');
 var _ = require('lodash');
+var striptags = require('striptags');
 var utils = require('./lib/utils');
 
 /**
@@ -77,7 +78,7 @@ function generate(str, options) {
     token.heading = opts.strip ? utils.strip(token.text, opts) : token.text;
 
     // Create a "slugified" id for linking
-    token.id = opts.slugify(token.text);
+    token.id = opts.slugify(striptags(token.text));
 
     // Omit headings with these strings
     var omissions = ['Table of Contents', 'TOC', 'TABLE OF CONTENTS'];
